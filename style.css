@@ -153,6 +153,6 @@ li {
    }
 }
 
-.mark {
-  background-color: none;
+li.mark {
+  background-color: transparent;
 }

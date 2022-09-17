@@ -1,7 +1,7 @@
 <?php
 
 /**
-* @preserve Copyright (c) 2018 T. F. Raaion, www.sublunar.space
+* @preserve Copyright (c) 2018-2022 NN Solex, www.sublunar.space
 * License MIT: http://www.opensource.org/licenses/MIT
 */
 

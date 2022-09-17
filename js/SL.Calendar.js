@@ -1,5 +1,5 @@
 /**
- * @preserve Copyright © 2018 T. F. Raaion, www.sublunar.space
+ * @preserve Copyright © 2018-2022 NN Solex, www.sublunar.space
  * (MIT): http://www.opensource.org/licenses/MIT
  *
  * SUBLUNAR ALMANAC
@@ -324,27 +324,29 @@ SL.Calendar = (function() {
       Object.keys(extData).forEach(function(key) {
         //if (!extData[key].hasOwnProperty("hide") || (extData[key].hasOwnProperty("hide") && extData[key].hide != "info"))
         //  tags.push(extData[key].tags);
-        var appender = '#houractions .'+key+'-actions';
-        if ( Module.modules[key].definitions.hasOwnProperty("group") && Module.modules[key].definitions.group.hasOwnProperty("info") ) {
-          if ( !$('li.info-section-'+Module.modules[key].definitions.group.id).length ) {
+        if (!Module.modules[key].definitions.hasOwnProperty("hide") || (Module.modules[key].definitions.hasOwnProperty("hide") && Module.modules[key].definitions.hide != "info")) {
+          var appender = '#houractions .'+key+'-actions';
+          if ( Module.modules[key].definitions.hasOwnProperty("group") && Module.modules[key].definitions.group.hasOwnProperty("info") ) {
+            if ( !$('li.info-section-'+Module.modules[key].definitions.group.id).length ) {
+              $('#houractions').append(
+                $('<ul/>').append(
+                  '<li>&nbsp;</li>\n'+
+                  '<li class="info-section-'+Module.modules[key].definitions.group.id+'"><b>'+Module.modules[key].definitions.group.text+'</b></li>\n'+
+                  '<li><ul class="'+Module.modules[key].definitions.group.id+'-actions"></ul>\n</li>\n'
+                )
+              );
+            }
+            appender = '#houractions .'+Module.modules[key].definitions.group.id+'-actions';
+          }
+          else {
             $('#houractions').append(
               $('<ul/>').append(
                 '<li>&nbsp;</li>\n'+
-                '<li class="info-section-'+Module.modules[key].definitions.group.id+'"><b>'+Module.modules[key].definitions.group.text+'</b></li>\n'+
-                '<li><ul class="'+Module.modules[key].definitions.group.id+'-actions"></ul>\n</li>\n'
+                '<li><b>'+Module.modules[key].definitions.name+'</b></li>\n'+
+                '<li><ul class="'+key+'-actions"></ul>\n</li>\n'
               )
             );
           }
-          appender = '#houractions .'+Module.modules[key].definitions.group.id+'-actions';
-        }
-        else {
-          $('#houractions').append(
-            $('<ul/>').append(
-              '<li>&nbsp;</li>\n'+
-              '<li><b>'+Module.modules[key].definitions.name+'</b></li>\n'+
-              '<li><ul class="'+key+'-actions"></ul>\n</li>\n'
-            )
-          );
         }
 
         if (extData[key].data) extData[key].data.forEach(function(el) {
@@ -423,12 +425,16 @@ SL.Calendar = (function() {
           var dropdown = '<li id="group_'+pluginDefinitions.group.id+'" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-filter"></span> '+pluginDefinitions.group.text+'<span class="caret"></span></a><ul class="dropdown-menu"></ul></li>';
           $(dropdown).appendTo("#filterList");
         }
-        var navitem = '<li><a data-toggle="modal" data-target="#'+id+'" href="#">'+pluginDefinitions.name+'</a></li>\n';
-        $('#group_'+pluginDefinitions.group.id+' ul').append(navitem);
+        if (!pluginDefinitions.hasOwnProperty("hide") || (pluginDefinitions.hasOwnProperty("hide") && pluginDefinitions.hide != "filter")) {
+          var navitem = '<li><a data-toggle="modal" data-target="#'+id+'" href="#">'+pluginDefinitions.name+'</a></li>\n';
+          $('#group_'+pluginDefinitions.group.id+' ul').append(navitem);
+        }
       // otherwise just throw it into the menu bar
       } else {
-        var navitem = '<li><p class="navbar-btn"><a class="btn btn-default" data-toggle="modal" data-target="#'+id+'" href="#"><span class="glyphicon glyphicon-filter"></span> '+pluginDefinitions.name+'</a></p></li>\n';
-        $(navitem).appendTo("#filterList");
+        if (!pluginDefinitions.hasOwnProperty("hide") || (pluginDefinitions.hasOwnProperty("hide") && pluginDefinitions.hide != "filter")) {
+          var navitem = '<li><p class="navbar-btn"><a class="btn btn-default" data-toggle="modal" data-target="#'+id+'" href="#"><span class="glyphicon glyphicon-filter"></span> '+pluginDefinitions.name+'</a></p></li>\n';
+          $(navitem).appendTo("#filterList");
+        }
       }
       // prepare variables and juggle data to create Tags and Operations to be displayed in the filter modal
       var title = $('#navigation a[data-target="#'+id+'"]').clone();
