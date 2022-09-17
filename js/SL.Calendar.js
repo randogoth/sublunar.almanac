@@ -289,6 +289,16 @@ SL.Calendar = (function() {
             SL.Calendar.download( $("#grid").html(), "grid.html", "skip", "html", "text/html; charset=utf-8");
             SL.Calendar.download(Hours.moments, "ephemeris");
         }
+        var classes = Array();
+        $(".planetaryhour").each(function(idx, el) {
+          classes = classes.concat(Array.from(el.classList));
+        });
+        classes = Array.from(new Set(classes)).filter(x => !['col-md-2', 'centered', 'planetaryhour'].includes(x));
+        classes.forEach( function(el) {
+          console.log('input#' + el);
+          $('li.' + el).show();
+          $('input#' + el).parent().show();
+        });
       }
     }
 
@@ -472,8 +482,8 @@ SL.Calendar = (function() {
         actions += '<li class="operation '+menuItems[key].tags+'"><input type="checkbox" value=".'+id+'-'+key+'" id="'+id+'-'+key+'" />&nbsp;'+menuItems[key].action+'</li>\n ';
       });
       // Hide all tags and actions by default
-      // $('li.operation').hide();
-      // $('.actiontag').parent().hide();
+      $('li.operation').hide();
+      $('.actiontag').parent().hide();
       // load template defined in index.html and append all filter data
       $('<div/>').loadTemplate($("#tpl-modal"), {
           title : 'Filter by '+pluginDefinitions.name,
