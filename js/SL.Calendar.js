@@ -260,11 +260,12 @@ SL.Calendar = (function() {
       .attr('ts', m.ts)
       .appendTo('#grid');
       // show relevant tags and actions
-      classes.split(" ").forEach(function (item, index) {
-        console.log(item);
-        $('li.' + item).show();
-        $('input#' + item).parent().shoe();
-      });
+      console.log(classes);
+      // classes.split(" ").forEach(function (item, index) {
+      //   console.log(item);
+      //   $('li.' + item).show();
+      //   $('input#' + item).parent().shoe();
+      // });
       if ( m.planetary.hour.no > 11 ) {
         $('#moment_'+j).addClass('night-hour');
       }
