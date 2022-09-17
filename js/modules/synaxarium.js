@@ -11607,7 +11607,7 @@ var module_synaxarium_coptic_hagiography = {
 var module_synaxarium_catholic = {
 
   definitions: {
-    name: "Catholic Patron Saints",
+    name: "Catholic Saints",
     description: "Catholic Patron Saints selectable by patronage",
     group: {
       id: "synaxarium",
