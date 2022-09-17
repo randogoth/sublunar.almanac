@@ -260,7 +260,7 @@ SL.Calendar = (function() {
       .attr('ts', m.ts)
       .appendTo('#grid');
       // show relevant tags and actions
-      console.log(classes);
+      // console.log(classes);
       // classes.split(" ").forEach(function (item, index) {
       //   console.log(item);
       //   $('li.' + item).show();
@@ -472,8 +472,8 @@ SL.Calendar = (function() {
         actions += '<li class="operation '+menuItems[key].tags+'"><input type="checkbox" value=".'+id+'-'+key+'" id="'+id+'-'+key+'" />&nbsp;'+menuItems[key].action+'</li>\n ';
       });
       // Hide all tags and actions by default
-      $('li.operation').hide();
-      $('.actiontag').parent().hide();
+      // $('li.operation').hide();
+      // $('.actiontag').parent().hide();
       // load template defined in index.html and append all filter data
       $('<div/>').loadTemplate($("#tpl-modal"), {
           title : 'Filter by '+pluginDefinitions.name,
