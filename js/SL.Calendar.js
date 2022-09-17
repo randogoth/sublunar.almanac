@@ -245,6 +245,7 @@ SL.Calendar = (function() {
       var zodiac         = SL.Astro.Logy.getZodiac(m.ephemeris.sun.deg);
       var moonsign       = SL.Astro.Logy.getZodiac(m.ephemeris.sun.deg);
       var extraData = Module.data(m);
+      var classes = Module.classes(extraData);
       $('<div/>').loadTemplate($("#tpl-planetaryhour"), {
           ruler       : SL.Astro.Logy.planet.symbol[(m.planetary.day.no+1)],
           date        : new moment.unix(m.ts).utc().add($('#offset').val(), 'h').format('D/M'),
@@ -254,10 +255,16 @@ SL.Calendar = (function() {
           hourend     : new moment.unix(m.planetary.hour.end).utc().add($('#offset').val(), 'h').format('HH:mm'),
       })
       .addClass('col-md-2 centered planetaryhour')
-      .addClass(Module.classes(extraData))
+      .addClass(classes)
       .attr('id', 'moment_'+j)
       .attr('ts', m.ts)
       .appendTo('#grid');
+      // show relevant tags and actions
+      classes.split(" ").forEach(function (item, index) {
+        console.log(item);
+        $('li.' + item).show();
+        $('input#' + item).parent().shoe();
+      });
       if ( m.planetary.hour.no > 11 ) {
         $('#moment_'+j).addClass('night-hour');
       }
@@ -463,6 +470,9 @@ SL.Calendar = (function() {
       Object.keys(menuItems).forEach(function(key) {
         actions += '<li class="operation '+menuItems[key].tags+'"><input type="checkbox" value=".'+id+'-'+key+'" id="'+id+'-'+key+'" />&nbsp;'+menuItems[key].action+'</li>\n ';
       });
+      // Hide all tags and actions by default
+      $('li.operation').hide();
+      $('.actiontag').parent().hide();
       // load template defined in index.html and append all filter data
       $('<div/>').loadTemplate($("#tpl-modal"), {
           title : 'Filter by '+pluginDefinitions.name,
