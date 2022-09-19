@@ -12849,12 +12849,12 @@ var module_synaxarium_catholic = {
           {
               "id": 706,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=5182\" target=\"blank_\">Mura McFeredach</a>",
-              "tags": "mura fahan o'neill mcferedach clan ireland"
+              "tags": "mura fahan o-neill mcferedach clan ireland"
           },
           {
               "id": 707,
               "action": "Fahan, Ireland; the O'Neill clan",
-              "tags": "mura fahan o'neill mcferedach clan ireland"
+              "tags": "mura fahan o-neill mcferedach clan ireland"
           }
       ],
       [
@@ -14415,12 +14415,12 @@ var module_synaxarium_catholic = {
           {
               "id": 24,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=182\" target=\"blank_\">Erasmus (Elmo)</a>",
-              "tags": "danger navigators intestinal birth women stomach erasmus seasickness sea elmo colic sailors ammunition/ordnance childhood diseases pains /explosive workers labor abdominal appendicitis disorders childbirth"
+              "tags": "danger navigators intestinal birth women stomach erasmus seasickness sea elmo colic sailors ammunition ordnance childhood diseases pains explosive workers labor abdominal appendicitis disorders childbirth"
           },
           {
               "id": 25,
               "action": "Abdominal pains; Ammunition/Ordnance /explosive workers; Childbirth; Colic; Sailors; Stomach disorders; Women in labor; appendicitis; birth pains; childhood intestinal diseases; danger at sea; navigators; seasickness",
-              "tags": "danger navigators intestinal birth women stomach erasmus seasickness sea elmo colic sailors ammunition/ordnance childhood diseases pains /explosive workers labor abdominal appendicitis disorders childbirth"
+              "tags": "danger navigators intestinal birth women stomach erasmus seasickness sea elmo colic sailors ammunition ordnance childhood diseases pains explosive workers labor abdominal appendicitis disorders childbirth"
           },
           {
               "id": 26,
@@ -17345,12 +17345,12 @@ var module_synaxarium_catholic = {
           {
               "id": 730,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=4213\" target=\"blank_\">Lawrence O'Toole</a>",
-              "tags": "o'toole arch lawrence dublin ireland"
+              "tags": "o-toole arch lawrence dublin ireland"
           },
           {
               "id": 731,
               "action": "archdiocese of Dublin, Ireland",
-              "tags": "o'toole arch lawrence dublin ireland"
+              "tags": "o-toole arch lawrence dublin ireland"
           }
       ],
       [
