@@ -282,7 +282,7 @@ var module_lunarmansion = {
         {
           "id": "13",
           "action": "13 Al-Awwah / Alahue",
-          "tags": "alawwah / alahue"
+          "tags": "alawwah alahue"
         },
         {
           "id": "243",

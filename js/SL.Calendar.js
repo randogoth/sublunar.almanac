@@ -282,19 +282,9 @@ SL.Calendar = (function() {
             SL.Calendar.download( $("#grid").html(), "grid.html", "skip", "html", "text/html; charset=utf-8");
             SL.Calendar.download(Hours.moments, "ephemeris");
         }
-        // show relevant tags and actions
-
-        // var classes = Array();
-        // $(".planetaryhour").each(function(idx, el) {
-        //   classes = classes.concat(Array.from(el.classList));
-        // });
-        // classes = Array.from(new Set(classes)).filter(x => !['col-md-2', 'centered', 'planetaryhour'].includes(x));
-        // classes.forEach( function(el) {
-        //   console.log('input#' + el);
-        //   $('li.' + el).show();
-        //   $('input#' + el).parent().show();
-        // });
-
+        if ( $("#relevance").is(':checked') ) {
+          Filter.displayRelevantOperations();
+        }
       }
     }
 
@@ -405,6 +395,7 @@ SL.Calendar = (function() {
    * @public {function} load() - loads all plugin modules defined and adds their filters
    * @public {function} modal() - creates DOM objects to be displayed as navbar menu items and modal hosting all the filter options of a plugin module
    * @public {function} comboFilter() - is a filter function for Isotope to include all selected tags and operations within a filter but exclude between each other
+   * @public {function} displayRelevantOperations() - filter out all actions and tags from the filter pages that are outside of the displayed time range
    */
   var Filter = (function() {
 
@@ -477,9 +468,7 @@ SL.Calendar = (function() {
       Object.keys(menuItems).forEach(function(key) {
         actions += '<li class="operation '+menuItems[key].tags+'"><input type="checkbox" value=".'+id+'-'+key+'" id="'+id+'-'+key+'" />&nbsp;'+menuItems[key].action+'</li>\n ';
       });
-      // Hide all tags and actions by default
-      // $('li.operation').hide();
-      // $('.actiontag').parent().hide();
+      
       // load template defined in index.html and append all filter data
       $('<div/>').loadTemplate($("#tpl-modal"), {
           title : 'Filter by '+pluginDefinitions.name,
@@ -531,10 +520,35 @@ SL.Calendar = (function() {
       return comboFilter;
     }
 
+    function displayRelevantOperations() {
+        $('li.operation').addClass('irrelevantdestruct').hide();
+        $('.actiontag').parent().addClass('irrelevantdestruct').hide();
+        var classes = Array();
+        $(".planetaryhour").each(function(idx, el) {
+          classes = classes.concat(Array.from(el.classList));
+        });
+        classes = Array.from(new Set(classes)).filter(x => !['col-md-2', 'centered', 'planetaryhour'].includes(x));
+        classes.forEach( function(el) {
+          var operation = $('input#' + el).parent();
+          var category = el.split('-')[0].replace('.', '');
+          operation.removeClass('irrelevantdestruct').show();
+
+          var oc = operation.attr('class');
+          if ( oc ) {
+            var opclasses = oc.split(/\s+/);
+            $.each(opclasses, function(index, opclass) {
+              $('input#' + category + '-' + opclass ).parent().removeClass('irrelevantdestruct').show();
+            });
+          }
+        });
+        $('li.irrelevantdestruct').remove();
+    }
+
     return {
       load: load,
       modal: modal,
-      comboFilter: comboFilter
+      comboFilter: comboFilter,
+      displayRelevantOperations: displayRelevantOperations
     }
 
   }());

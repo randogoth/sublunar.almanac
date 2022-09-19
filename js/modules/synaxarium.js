@@ -16381,12 +16381,12 @@ var module_synaxarium_catholic = {
           {
               "id": 214,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=471\" target=\"blank_\">Cosmas and Damian</a>",
-              "tags": "damian surgeons hairdressers profession hernia chemists pharmacists barbers apothecaries druggists cosmas blind manufacturers people doctors pharmacists/druggists medical physicians chemical industry"
+              "tags": "damian surgeons hairdressers profession hernia chemists pharmacists barbers apothecaries druggists cosmas blind manufacturers people doctors pharmacists druggists medical physicians chemical industry"
           },
           {
               "id": 215,
               "action": "Apothecaries; Barbers; Blind people; Chemists (pharmacists); Doctors; Druggists (pharmacists); Hairdressers; Medical profession; Pharmacists/Druggists; Physicians; Surgeons; chemical industry, chemical manufacturers; doctors, physicians; hernia",
-              "tags": "damian surgeons hairdressers profession hernia chemists pharmacists barbers apothecaries druggists cosmas blind manufacturers people doctors pharmacists/druggists medical physicians chemical industry"
+              "tags": "damian surgeons hairdressers profession hernia chemists pharmacists barbers apothecaries druggists cosmas blind manufacturers people doctors pharmacists druggists medical physicians chemical industry"
           }
       ],
       [
@@ -16482,7 +16482,7 @@ var module_synaxarium_catholic = {
           {
               "id": 115,
               "action": "Blind people; Diseases of the eye; Eye disorders; Health inspectors; Nightmares, protection against; Pharmacists/Druggists; Travelers; Youth; doctors, physicians; guardian angels; happy meetings; obsession",
-              "tags": "inspectors eye meetings youth raphael health blind obsession people diseases guardian doctors pharmacists/druggists angels physicians disorders happy archangel travelers nightmares"
+              "tags": "inspectors eye meetings youth raphael health blind obsession people diseases guardian doctors pharmacists druggists angels physicians disorders happy archangel travelers nightmares"
           },
           {
               "id": 116,

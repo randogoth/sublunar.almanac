@@ -100,10 +100,8 @@
                 <h3 class="stoke"></h3>
               </center>
             </div>
-            <div id="grid">
-            </div>
+            <div id="grid"></div>
           </div>
-
         </div>
       </div>
     </div>
@@ -132,11 +130,11 @@
                    </div>
                 </div>
                 <div class="row">
-                   <div class="form-group col-md-6">
+                   <div class="form-group col-md-4">
                       <label for="datetime">Date and Time</label>
                       <input type="text" class="form-control" id="datetime" />
                    </div>
-                   <div class="form-group col-md-6">
+                   <div class="form-group col-md-4">
                       <label for="offset">UTC Offset</label>
                       <input type="text" class="coords form-control args" id="offset" placeholder="3"/>
                    </div>
@@ -152,26 +150,37 @@
                    </div>
                 </div>
                 <div class="row">
-                   <div class="form-group col-md-4">
-                      <label for="lon">Generate Days</label>
+                   <div class="form-group col-md-3">
+                      <label for="days">Generate Days</label>
                       <input type="text" id="days" class="form-control" value="7">
                    </div>
-                   <div class="form-group col-md-4">
-                      <label for="lon">Filter Hours</label>
+                   <div class="form-group col-md-3">
+                      <label for="future">Filter Hours</label>
+                      <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="If you want to only see hours that lie in the future, tick this checkbox."></span>
                       <div class="checkbox">
                          <label>
                          <input id="future" type="checkbox"> Hide Past
                          </label>
                       </div>
                    </div>
-                   <div class="form-group col-md-4">
-                      <label for="lon">Zodiac System</label>
+                   <div class="form-group col-md-3">
+                      <label for="zodiac">Zodiac</label>
+                      <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="If you - like myself - prefer to use the Sidereal Zodiac over the more popular Tropical one, please make sure you tick this checkbox"></span>
                       <div class="checkbox">
                          <label>
                          <input id="zodiac" type="checkbox"> Sidereal
                          </label>
                       </div>
                    </div>
+                   <div class="form-group col-md-3">
+                    <label for="relevance">Filter Ops.</label>
+                    <span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" title="" data-original-title="Uncheck this box if you want to see all possible Operations in the filter criteria irrelevant of time frame."></span>
+                    <div class="checkbox">
+                       <label>
+                       <input id="relevance" type="checkbox" checked> Only Relevant
+                       </label>
+                    </div>
+                 </div>
                    <div class="form-group col-md-12">
                       <label for="lon">Modules to Use</label>
                       <p><a id="allModules">All</a> <a id="noModules">None</a></p>
@@ -285,39 +294,6 @@
                 <a href="http://bootswatch.com" target="_blank">bootswatch v3.3.7</a>, © 2012-2017 Thomas Park, <a href="https://opensource.org/licenses/MIT" target="_blank">(MIT)</a>.
             </p>
         </center>
-        <hr />
-        <h3>User Guide</h3>
-        <p>The <em>Sublunar Almanac</em> is a browser based tool to display and filter a <em>roster of Planetary Hours</em>, the most commonly used time-frames for starting magical operations. The starting and ending times, as well as the durations of Planetary Hours depend on the <em>geographic location</em> because they are defined by the respective local rising and setting times of the sun. The <em>Sublunar Almanac</em> can be used to find auspicious hours based on <em>place</em> and <em>astrological data</em> and information found in <em>grimoires</em> and other <em>magical texts</em>.</p>
-        <h4>Overview</h4>
-        <p>When activated properly <em>Sublunar Almanac</em> displays a roster of rectangular boxes, each representing a Planetary Hour.</p>
-        <p>They are numbered from 1 to 24, the <em>yellow</em> ones are during the <em>day</em> (sunrise to sunset), the <em>blue</em> ones during the <em>night</em> (sunset to sunrise). The large number in the bottom row indicates the <em>number of the hour</em>, the numbers in the center of the top row show the real <a href="https://en.wikipedia.org/wiki/Gregorian_calendar">Gregorian Calendar</a> <em>date</em> in the format dd/mm. The symbol in the top left corner indicates the <em>ruler of the current Planetary Day</em> (Sol, Luna, Mars, Mercury, Jupiter, Venus, Saturn) and the one in the right corner the <em>ruler of the Planetary Hour</em>. Below you find the <em>starting time</em> of this hour on the left in hh:mm format and the <em>ending time</em> on the right, respectively.</p>
-        <p>But before the <em>Sublunar Almanac</em> shows you any of this, it needs to be individually <em>set up</em>.</p>
-        <h4>Settings</h4>
-        <p>The program needs to know a <em>geographic location</em> and a <em>range of hours</em> to display, among other options. These must be set properly. To do that, click the <em>Settings</em> button on the top left of the grey <em>navigation bar</em>:</p>
-        <p>The easiest way to set up a location is by clicking the <em>Locate Me</em> button and allowing the browser to pass the geolocation information to the <em>Almanac</em>. If your browser does not support that feature or if you want to calculate the <em>Almanac</em> for a location that is not the one you are currently at, you can enter it manually by typing the <em>name of your city</em> or place into the "<em>Manual Geolocation</em>" field and wait for the <em>auto-complete list</em> to show you all the matches. When you click one of the options in the list, the fields for <em>UTC-Offset</em> (time difference from Universal Time), <em>Latitude</em> and <em>Longitude</em> are automatically filled in.</p>
-        <p>Alternatively you may of course provide the coordinates and offset yourself <em>manually</em>. These latter fields are <em>crucial</em> for the <em>Almanac</em> to function, so if they are empty, <em>it won't work</em>.</p>
-        <p>The other important information needed is the <em>time-range</em> to be displayed. The <em>Time and Date</em> field can be used to adjust the desired starting point of the Almanac. It is set to <em>right now</em> by default. The number of days for which the <em>Almanac</em> will calculate the hours can be set in the <em>Generate Days</em> field. It is set to one week by default but can take any number of days. The <em>Almanac</em> takes around one second to calculate all information for one day, so if you want to generate 30 or more days, prepare to be <em>patient</em>.</p>
-        <p>The <em>Almanac</em> shows you all the hours from the beginning of the day set up in the <em>Time and Date</em> field. If you want to only see hours that lie in the future, tick the <em>Hide Past</em> checkbox. By default the <em>Almanac</em> uses the <em>Tropical Zodiac</em> for Astrological calculations. If you - like myself - prefer to use the <em>Sidereal Zodiac</em>, please make sure you tick the <em>Sidereal</em> checkbox.</p>
-        <p>The bottom part of the <em>Settings</em> are a list of all <em>Plug-in Modules</em> currently implemented in the <em>Sublunar Almanac</em>. Each module calculates and displays different information based on astrological phenomena and lists of auspicious times transmitted through magical texts and these modules are the <em>power behind the Almanac</em>.</p>
-        <p>By default, all modules related to astrological phenomena and planetary timing are <em>activated</em> and all modules related to magical texts are <em>deactivated</em>, so if you want to see for example, what the <em>Hygromanteia</em> or <em>PGM</em> have to say about certain times the moon is in certain Zodiac signs, make sure to activate these modules by <em>ticking their checkbox</em>.</p>
-        <p>When all settings are made, click the blue <em>Generate</em> button and watch the magic unfold. The <em>Settings</em> window will close and a <em>blue line and circle</em> on the top of the screen will indicate the <em>status</em> of the <em>background calculations</em>. When it is done, the roster of Planetary Hours will appear according to your settings.</p>
-        <h4>Hour Information</h4>
-        <p>When you <em>click</em> any of the Planetary Hour boxes you can see all calculated information about this hour depending on the modules previously selected in the Settings:</p>
-        <p>If you want to save this selected hour to your <em>Google Calendar</em> or any other calendar that supports the <em>iCal</em> format, such as Apple or Microsoft Calendar, click one of the buttons on the bottom of the information window.</p>
-        <h4>Filtering</h4>
-        <p>The main power of <em>Sublunar Almanac</em> is the <em>filtering</em>. Notice the small menus that appeared in the <em>top right of the navigation bar</em> after you clicked Generate? These are filters provided by the modules to find an auspicious hour for whatever operation you want to execute.</p>
-        <p>When you click on one of them, its <em>filter options</em> will be displayed:</p>
-        <p>Here you can see two columns with all the <em>filter criteria</em> you can apply to the hours in the roster. The <em>left column</em> is a list of <em>tags</em> related to all the criteria listed in the right column. If you click on one of the tags, only the criteria related to this tag are listed. When you <em>click a filter criterium in the right column</em> it will <em>immediately be applied</em> to the grid of Planetary Hours in the background. The filter criteria are <em>mutually inclusive</em> ("OR" logic), that means that when you select more than one of them, <em>all of the selected ones</em> are applied ("show hours matching criterium A OR B OR C").</p>
-        <p>In contrast, the filter sections themselves are <em>mutually exclusive</em> ("AND" logic). So if you select criteria from filter A and criteria from filter B, the calendar will just display dates that have an <em>overlap</em> of the criteria of A and B ("show hours matching criterium A OR B from filter A AND criterium C from filter D"). This has been done to make it possible to find Planetary Hours that have <em>overlapping auspiciousness</em> criteria (for example to "find an hour of Mercury on the day of Jupiter when Mercury is exalted") - in Rune Soup terms also known as "<em>Fruit Machine</em>" moments.</p>
-        <p><em>Beware:</em> If you choose <em>too many criteria</em> that do not match any of the displayed Planetary Hours, the roster will <em>become empty</em>. To reset all the filters at the same time and display all Planetary Hours, click the <em>Reset</em> button in the navigation bar.</p>
-        <h4>Notes and Caveats</h4>
-        <p>Most importantly: I take <em>no reliability or warranty on the accuracy</em> of any of the information provided by <em>Sublunar Almanac</em>.</p>
-        <p>I am <em>not a professional</em> JavaScript programmer, but I taught myself how to code to get stuff done. <em>Please forgive me</em> if my code looks shit or has bugs.</p>
-        <p>Of course <em>astrological phenomena</em> are in <em>constant change</em>, from minute to minute. The <em>Sublunar Almanac</em> calculates all data for the <em>start time</em> of each Planetary Hour, so if your magical operation strictly depends on the moon being in a certain range of degrees of the Zodiac or needs to happen only on a certain Lunar day, please double-check with other sources. Usually it is <em>magically sufficient</em> to <em>start a magical operation in a certain hour</em>.</p>
-        <p>The difference between <em>tropical</em> and <em>sidereal Zodiac</em> I use is 24° 07' 02"</p>
-        <p>For <em>technical reasons</em> the only dates where all phenomena can be fairly <em>accurately</em> calculated are between <em>1900</em> and <em>2100</em> CT, Lunar Days only between <em>1970</em> and <em>2100</em>.</p>
-        <p><em>Lunar Day 1</em> starts on the <em>exact moment of New Moon</em>, all consecutive Lunar Days start at local <em>moonrise</em>-times.</p>
-        <p>For astrological <em>aspects</em> I use orbs according to <em>Hellenistic sources</em>. All planets have an orb-size of 3 degrees, the luminaries 3.2 degrees for all aspects except conjunctions where the moon has 13 degrees and the sun 15. For direction and speed calculations I interpret all speeds between -0.01 and 0.01 degrees as <em>stations</em> for the inner planets and between -0.001 and 0.001 degrees for the outer planets, everything below that is <em>retrograde</em>, everything above <em>direct</em>.</p>
     </script>
 
 <!--

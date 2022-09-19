@@ -155,7 +155,7 @@ var module_behenii = {
             var rangle = Math.min( Math.abs( property.moon.deg - property.asc.deg ), 360-Math.abs(property.moon.deg - property.asc.deg ) );
             var mangle = Math.min( Math.abs( property.moon.deg - property.mc.deg ), 360-Math.abs(property.moon.deg - property.mc.deg ) );
             if ( rangle <= orb || mangle <= orb ) {
-                console.log("MC: "+mangle+", ASC: "+rangle);
+                //console.log("MC: "+mangle+", ASC: "+rangle);
                 ret.push(definitions.actions[no][0]);
             }
         }
