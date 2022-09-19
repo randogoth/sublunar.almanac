@@ -422,6 +422,7 @@ SL.Calendar = (function() {
      * @param {Object} pluginDefinitions - holds all the definitions defined in a plugin module
      */
     function modal(id, pluginDefinitions) {
+      $('#modals div#' + id).remove();
       var items = pluginDefinitions.actions;
       // check if filters navbar menu item should be grouped ("group" property in plugin module definition)
       // create bootstrap dropdown menu if needed
