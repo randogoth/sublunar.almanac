@@ -460,7 +460,7 @@ var module_synaxarium_coptic = {
           {
               "id": 448,
               "action": "<a href=\"https://st-takla.org/books/en/church/synaxarium/01-toot/26-tout-zacharias.html\" target=\"blank_\">The Angels' Annunciation of John the Baptist to Zacharias</a>",
-              "tags": "angels' annunciation john baptist zacharias"
+              "tags": "angels annunciation john baptist zacharias"
           }
       ],
       [
@@ -6825,7 +6825,7 @@ var module_synaxarium_coptic_hagiography = {
           {
               "id": 26,
               "action": "<p><i>The Angels' Annunciation of John the Baptist to Zacharias</i></p><p>On this day it was announced to Zacharias, the priest, the birth of John the Baptist. Zacharias was well advanced in years and his wife, Elizabeth, was barren and her time for begetting children had passed.</p><p>Zacharias was praying and beseeching God persistently to give him a child because the children of Israel reviled anyone without a son and treated him with ignominy. They would say about him that he was without the blessing that God had told Adam in these words: \"Be fruitful and multiply.\" The Lord had compassion on him and He hearkened to his petition. He sent him Gabriel the Angel to announce to him the birth of John. The angel came to him while he was in the sanctuary, as it is mentioned in the Holy Gospel (Luke<st1:numconv val=\"1\">1</st1:numconv>:<st1:numconv val=\"11\">11</st1:numconv>), and announced to him the birth of the great prophet John, and that he should precede the Christ as it was said by the prophets, \"He shall go before Him.\" He asked the angel, \"Whereby shall I know this? For I am an old man, and my wife well advanced in years.\" The angel told him that he was sent from God to announce that to him and it is not seemly for him to doubt. He then told him that he shall be dumb till the birth of the child. On the day of John's circumcision, they asked him about the child's name. He asked for a tablet and wrote on it John and straightaway his mouth opened. Then he spoke and praised God and prophesied concerning his son John and the Lord Christ. He prophesied about his son that he would be a prophet and he should go before the face of the Lord.</p><p><i>The prayers of this priest be with us, and Glory be to our God, forever. Amen.</i></p>",
-              "tags": "angels' annunciation john baptist zacharias",
+              "tags": "angels annunciation john baptist zacharias",
               "hide": "filter"
           }
       ],
