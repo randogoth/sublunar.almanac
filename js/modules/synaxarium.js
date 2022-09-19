@@ -16477,7 +16477,7 @@ var module_synaxarium_catholic = {
           {
               "id": 114,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=203\" target=\"blank_\">Raphael the Archangel</a>",
-              "tags": "inspectors eye meetings youth raphael health blind obsession people diseases guardian doctors pharmacists/druggists angels physicians disorders happy archangel travelers nightmares"
+              "tags": "inspectors eye meetings youth raphael health blind obsession people diseases guardian doctors pharmacists druggists angels physicians disorders happy archangel travelers nightmares"
           },
           {
               "id": 115,
