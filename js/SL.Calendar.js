@@ -169,7 +169,7 @@ SL.Calendar = (function() {
         // checks if usecase is online, then uses server based calculation
         } else {
             var url = "https://almanac.sublunar.space/pmom.php?days="+days+"&ts="+ts+"&lat="+lat+"&lon="+lon;
-            fetch('pmom.json')
+            fetch(url)
             .then(function(response) {
                 return response.json();
               })
