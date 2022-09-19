@@ -16971,12 +16971,12 @@ var module_synaxarium_catholic = {
           {
               "id": 522,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=692\" target=\"blank_\">John of Capistrano</a>",
-              "tags": "john judges/jurists military chaplains judges jurors capistrano jurists"
+              "tags": "john judges jurists military chaplains judges jurors capistrano jurists"
           },
           {
               "id": 523,
               "action": "Chaplains, military; Judges/Jurists; judges; jurists; jurors",
-              "tags": "john judges/jurists military chaplains judges jurors capistrano jurists"
+              "tags": "john judges jurists military chaplains judges jurors capistrano jurists"
           }
       ],
       [
