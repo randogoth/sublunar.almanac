@@ -169,7 +169,7 @@ SL.Calendar = (function() {
         // checks if usecase is online, then uses server based calculation
         } else {
             var url = "https://almanac.sublunar.space/pmom.php?days="+days+"&ts="+ts+"&lat="+lat+"&lon="+lon;
-            fetch(url)
+            fetch('pmom.json')
             .then(function(response) {
                 return response.json();
               })
@@ -209,6 +209,7 @@ SL.Calendar = (function() {
         }
         if ( Hours.moments.length > 0 ) {
             $('#caption .stoke').html('generating planetary hours...please wait');
+            $('#grid').hide();
             for (var i = 0, len = Hours.moments.length; i < len; i++) {
               var everyday = setTimeout( Hour.make, 10, Hours.moments[i], i, Hours.moments.length, everyday);
               NProgress.set(i/Hours.moments.length);
@@ -285,6 +286,7 @@ SL.Calendar = (function() {
         if ( $("#relevance").is(':checked') ) {
           Filter.displayRelevantOperations();
         }
+        $('#grid').show();
       }
     }
 
