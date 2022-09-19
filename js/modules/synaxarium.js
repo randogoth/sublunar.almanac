@@ -16403,12 +16403,12 @@ var module_synaxarium_catholic = {
           {
               "id": 496,
               "action": "<a href=\"https://www.catholic.org/saints/saint.php?saint_id=3878\" target=\"blank_\">Isidore the Farmer</a>",
-              "tags": "isidore alcala madrid farmer &"
+              "tags": "isidore alcala madrid farmer"
           },
           {
               "id": 497,
               "action": "Madrid & Alcala",
-              "tags": "isidore alcala madrid farmer &"
+              "tags": "isidore alcala madrid farmer"
           },
           {
               "id": 498,
