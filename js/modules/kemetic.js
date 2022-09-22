@@ -2992,7 +2992,7 @@ var module_kemet_chronokrators_pharaonic = {
           {
               "id": 588,
               "action": "Feast of 'Anty (LGG4, 630, Dendera; LGG4, 232, written \"Nemty\" and listed as Chronokrat; CC2; Leitz TW 433)",
-              "tags": "-anty"
+              "tags": "anty"
           }
       ],
       [
@@ -3574,7 +3574,7 @@ var module_kemet_chronokrators_pharaonic = {
           {
               "id": 844,
               "action": "She in Whom Power Is Found (\"Gem[et]baues,\" epithet of Hathor and/or Bast and also the name of today's holiday) (LGG7, 310, Esna)",
-              "tags": "power holiday name whom epithet or bast baues today found she and also hathor"
+              "tags": "power holiday bast hathor"
           },
           {
               "id": 845,
@@ -9995,11 +9995,6 @@ var module_kemet_chronokrators_pharaonic = {
       ],
       [
           {
-              "id": 2994,
-              "action": "In the Greco-Roman period, a holiday for the deification of the Old Kingdom vizier Imhotep as a semi-divine son of Ptah extended seven days. Imhotep (Greek Imouthes) was syncretized with the demigod Asklepios. IV Shomu 18",
-              "tags": "period shomu greco-roman asklepios. semi-divine iv with son seven old holiday extended vizier deification demigod kingdom as imhotep syncretized in was ptah days."
-          },
-          {
               "id": 2995,
               "action": "She Who Sees (epithet of the Eye of Ra) (LGG3, 205, Dendera and Edfu)",
               "tags": "she sees"
@@ -10417,11 +10412,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 522,
               "action": "Confirmation of Royal Authority (pBrooklyn 47.218.50; Goyon 1972)",
               "tags": "authority confirmation royal"
-          },
-          {
-              "id": 523,
-              "action": "\"Festival of the Opening of the Year, for a double benefit. Festival of Nehebkau and Khnum and His Ennead. Shu finds the Eye of Horus within the hands of Set. He takes it from Him.\" (TFC Esna)",
-              "tags": "opening benefit. ennead. horus him. nehebkau double takes eye shu finds it within he set. year khnum hands"
           }
       ],
       [
@@ -10585,7 +10575,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 589,
               "action": "Feast of 'Anty (LGG4, 630, Dendera; LGG4, 232, written \"Nemty\" and listed as Chronokrat; CC2; Leitz TW 433)",
-              "tags": "-anty"
+              "tags": "anty"
           }
       ],
       [
@@ -10823,24 +10813,9 @@ var module_kemet_festivals_pharaonic = {
               "tags": "drunkenness"
           },
           {
-              "id": 684,
-              "action": "Wag Festival included wine offerings and drunkenness; the wearing of seshed-bands, night offerings to Wepwawet (Asyut, Senwosret I), illumination ceremonies with torches, visits to Abydos, the 'Sed Festival of Osiris' (BoD169), burning incense and libations, turning the divine boats to face Abydos, and prayers and celebrations overnight, to celebrate Osiris' being declared justified. The celebrations began Wag eve and went through Wag day. (LA6, 1135-1139)",
-              "tags": "drunkenness ceremonies face divine incense wearing eve boats celebrate night ed visits with justified. included turning prayers abydos wine torches libations wag through overnight illumination wepwawet declared osiris-being seshed-bands burning celebrations osiris- went began day."
-          },
-          {
               "id": 685,
               "action": "Osiris is Lord of Wine during the Wag Festival. (LA6; PT820a)",
               "tags": "wag lord during osiris festival. wine"
-          },
-          {
-              "id": 686,
-              "action": "In Asyut, a man named Hapdjefi's tomb from the Middle Kingdom describes what he received during Wag Festival: cake, 500 kefen breads, 10 white breads for his ka statue on Wag eve, and bread and beer on Wag day, as well as glorifications and illuminations. Hapdjefi's ka statue was taken out of his tomb and carried to the temple of Wepwawet, to light a torch and give offerings on his behalf, and then it returned in a procession to his tomb chapel. (Posener-Kriéger 1986, 1135-36)",
-              "tags": "torch out well it he eve hapdjefi tomb during behalf beer give received middle glorifications illuminations. wag kingdom white as what wagas named chapel. carried wepwawet kefen asyut in was statue man taken returned ka then breads cake describes temple bread light"
-          },
-          {
-              "id": 687,
-              "action": "Red and green cloth bands that were previously used in temple statuary rituals were gifted to tombs and the dead as part of the Wag Festival observance (Helck 1961, 264 and note 1; Schott ZAS 98 (1970), 47-48).",
-              "tags": "used previously dead part tombs bands statuary green observance red wag as rituals cloth gifted were -. that temple"
           }
       ],
       [
@@ -10878,11 +10853,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 701,
               "action": "Festival of Geb as a greyhound (LGG7, 502; Leitz in FS Westendorf 1994, 103-117; Tebtunis 171 and plate 20)",
               "tags": "geb as greyhound"
-          },
-          {
-              "id": 702,
-              "action": "This is the Thoth festival mentioned earlier as a major annual festival. In the Old Kingdom, it probably opened Wag Festival (LA6, 523). Victory wreaths called 'wreaths of the true-of-voice' were given to the dead as part of Thoth festival (Nelson 1934, 79); this wreath tradition started during the reign of Amasis (New Kingdom) and continued to the Late Period. The wreaths were made of grape, persea, olive, and acacia leaves and papyrus and lotus flowers (laurel was used in later times). They were first hung on the divine statues in the temples as an offering to the gods, then reverted from the temples, taken to the tomb chapels, and presented to the ancestors' statues as a sacred gift (Winter 1951, 33-36).",
-              "tags": "probably grape papyrus major divine it earlier dead part olive offering mentioned tomb hung chapels wreath late this reign opened during temples gift continued tradition persea annual called reverted started old thoth statues wag kingdom as acacia victory were ancestors-statues festival. wreaths given sacred made lotus they true-of-voice-were . -wreaths taken presented amasis first an then leaves flowers period."
           }
       ],
       [
@@ -10910,11 +10880,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 712,
               "action": "Feast of Drunkenness, Day 3 of 5 (LA Edfu and Dendera); \"Eating honey and figs on the feast of Tekhy\" (LA2, 174)",
               "tags": "drunkenness tekhy eating figs honey"
-          },
-          {
-              "id": 713,
-              "action": "At Edfu, the Drunkenness festival was celebrated from 18-20 Thoth and conflated with the Festival of Shu and Tefnut (\"the festival of Shu and Tefnut, the day on which the Udjat Eye is filled and the sister comes […] the menu-brew is offered to Hathor on this day\" (Alliot 1949, 221).",
-              "tags": ". this drunkenness celebrated tefnut hathor with shu day edfu offered thoth conflated at menu-brew was"
           }
       ],
       [
@@ -10974,11 +10939,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 735,
               "action": "Haker Festival (LA2, 929; Urk V, 124.5-12)",
               "tags": "haker"
-          },
-          {
-              "id": 736,
-              "action": "Haker Festival is also called \"the night of sleep\" or \"the sleep of Battling Horus\" in Abydos from the Middle Kingdom to Dynasty 18 in the New Kingdom. It included a feast of Osiris, a victory dance, and a procession of Wepwawet (LA2, 929).",
-              "tags": "dance sleep it also horus included called abydos middle battling kingdom or victory osiris kingdom. wepwawet new haker . dynasty"
           }
       ],
       [
@@ -11243,11 +11203,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 850,
               "action": "Anubis Inspects the Embalming Tents ( w'abet ) (CC)",
               "tags": "anubis inspects tents embalming"
-          },
-          {
-              "id": 851,
-              "action": "\"Festival of Gembaues; it is thanks to his (i.e., Anubis') power that the Eye of Horus was found on the eastern mountain. The goddess of this day is Nebtu, who has dread of hunger and thirst. Making the procession of this goddess as well as […] in her presence; returning to her temple at nighttime.\" (TFC Esna)",
-              "tags": "returning well it nebtu mountain. thanks eastern horus this dread making thirst. thisis has found as presence gembaues was power hunger eye that temple nighttime. goddess"
           }
       ],
       [
@@ -11449,11 +11404,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 949,
               "action": "Feast of Clothing (also held on II Akhet 27, LA2, 175; Niuserre MK)",
               "tags": "clothing"
-          },
-          {
-              "id": 950,
-              "action": "The Festival of 17-23 Paenopet marks both the halfway point of the Inundation season, and the Autumnal Equinox, when the Wandering Goddess, Who began her trek southward at the Summer Solstice, has \"entered Nubia,\" and the sunlight of each day noticeably decreases in the northern hemisphere where Egypt is.",
-              "tags": "point summer southward sunlight egypt inundation both decreases when nubia has wandering season where marks solstice equinox trek is. northern halfway eachnoticeably began autumnal entered paenopet hemisphere goddess"
           }
       ],
       [
@@ -11956,11 +11906,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 1189,
               "action": "Oracle of Amunhotep I, True of Voice (LA2, 184, New Kingdom)",
               "tags": "voice true amunhotep"
-          },
-          {
-              "id": 1190,
-              "action": "\"Festival of Hathor Who Lives in Kom Ombo. Causing the appearance of Horus and Hathor. Performing all the rites.\" (TFC Kom Ombo)",
-              "tags": "kom horus all lives hathor. causing rites. performing ombo. hathor"
           }
       ],
       [
@@ -12082,11 +12027,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 1225,
               "action": "Festival of Tatenen the Great (LGG7, 348, Esna; Esna III, 346)",
               "tags": "great tatenen"
-          },
-          {
-              "id": 1226,
-              "action": "\"Festival of Hathor, offerings for Amun-Ra with his ennead and the portable image of Ramses III.\" (TFC Medinet Habu Ramses III)",
-              "tags": "iii. ramses ennead with portable image hathor amun-ra"
           }
       ],
       [
@@ -12355,7 +12295,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 1333,
               "action": "Osiris Mysteries: Opening Ceremonies (TFC Ramses II; AF TT50 Neferhotep; LA2, 176;",
-              "tags": "opening ramses ceremonies tfc neferhotep mysteries osiris ii la"
+              "tags": "opening ramses ceremonies"
           },
           {
               "id": 1334,
@@ -12597,11 +12537,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 1405,
               "action": "Procession of Sokar and Hathor, Day 3 (final) (TFC Dendera)",
               "tags": "hathor sokar"
-          },
-          {
-              "id": 1406,
-              "action": "\"Festival of Sokar; offerings for Ptah-Sokar-Osiris and Nefertem-Protector-of-the-Two-Lands.\" The henu-barque of Sokar is preceded by five other barques: those of Hathor, Wadjet, Shezemtet, Bast, and Sekhmet. (TFC/AF Medinet Habu Ramses III; LA5, 1062 and 1074-1075)",
-              "tags": "five shezemtet sekhmet. barques bast sokar henu-barque nefertem-protector-of-the-two-lands. those wadjet preceded other hathor ptah-sokar-osiris"
           }
       ],
       [
@@ -12831,8 +12766,8 @@ var module_kemet_festivals_pharaonic = {
       [
           {
               "id": 1483,
-              "action": "Coronation, Day 4 (final) KSG 3, 3; Spalinger 1990, 289-294 and note 36; Bleeker, 109; von Beckerath 1991, 32 and note 12)",
-              "tags": "bleeker beckerath note von coronation ksg spalinger"
+              "action": "Coronation, Day 4 (final) (KSG 3, 3; Spalinger 1990, 289-294 and note 36; Bleeker, 109; von Beckerath 1991, 32 and note 12)",
+              "tags": "coronation"
           },
           {
               "id": 1484,
@@ -12877,11 +12812,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 1501,
               "action": "Appearances of Tasenetnofret, Hathor, and Min (TFC Kom Ombo Ptolemy VI)",
               "tags": "appearances min hathor tasenetnofret"
-          },
-          {
-              "id": 1502,
-              "action": "\"Day of the Festival of Amun, decreed by the King of Upper and Lower Egypt, Userma'atre Meryamun (Ramses III), when the leaf of the ished-tree was carved with the name of the King of Upper and Lower Egypt, Userma'atre Meryamun in the Mansion of Ptah; offerings for Amun-Ra with his ennead.\" (AF Medinet Habu; TFC Ramses III Medinet Habu)",
-              "tags": "name decreed userma-atre egypt king mansion when with lower leaf ennead. meryamun carved upper amun was ptah day ished-tree amun-ra"
           }
       ],
       [
@@ -14074,11 +14004,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 2064,
               "action": "Birthday of Apophis (CC; LA2, 477-478; LGG3, 478; Leitz TW 291; see pSallier for ritual to turn Apophis)",
               "tags": "birthday apophis"
-          },
-          {
-              "id": 2065,
-              "action": "You may be surprised that the birthday of Apophis, the Uncreated One who opposed and attempted to destroy Ra and all the gods on a daily basis, was noted in ancient Egypt. In fact, Apophis was not honored on this day. Rather, this was a day to remember to protect oneself against the evil and violence that Apophis represented. (Not coincidentally, this date is in the midpoint of the ancient Egyptian year, and the festival is also meant to reinforce rituals against the Uncreated One that were performed at every New Year's Festival.) Essentially, the ancients knew, as we do, that some things happen that are out of our control, and the best one can do about such \"random acts of Apophis\" is to live in ways that honor Ma'at and do not allow evil to gain a foothold in our lives. In antiquity, the resolve not to let Apophis win was symbolized in a ritual where a model snake was cursed and then set on fire, broken, buried, or tossed in a river. The curse, as opposed to a prayer, went like this:",
-              "tags": "model cursed ways ancient remember violence do essentially rather antiquity gain curse win honor buried ancients surprised one knew prayer our things let ra apophis or egypt. not best you fire oneself was set broken tossed be control evil that protect attempted honored fact can happen represented. birthday this symbolized live as ma-at against ato may daily such opposed day. destroy lives. all out snake some allow noted basis resolve about where foothold ritual uncreated we river. acts went then random like"
           }
       ],
       [
@@ -14510,11 +14435,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 2321,
               "action": "Renenutet Festival of Mut (evening of IV Peret 30 through morning of I Shomu I; Sauneron, plate 9; Esna II, 77; LGG4, 687)",
               "tags": "renenutet mut"
-          },
-          {
-              "id": 2322,
-              "action": "Shomu contains fewer festivals than the other two seasons, but there are several large, important national festivals. Two of them are marked on successive new moons (in II and III Shomu respectively): the Beautiful Feast of the Valley and the Festival of the Beautiful Reunion. In the Valley festival, people gathered on the Nile's western bank at Thebes to visit the eastern bank necropolis and stay with their ancestors in the tombs, as the gods of Thebes — Amun-Ra, Mut, and Khonsu — also went to the necropolis to bless the dead. At the Beautiful Reunion, one entire city sailed to another in festival: the people of the city of Edfu and their god Horus journeyed downstream to the city of Dendera and their goddess Hathor, for a multi-week wedding celebration.",
-              "tags": "western one their dead. there — shomu edfu goddess also wedding reunion. tombs necropolis eastern contains several horus them important reunion large valley with journeyed downstream multi-week thebes beautiful as fewer national marked entire sailed but festivals new gathered other stay bless mut khonsu bank another hathor celebration. visit dendera nile ancestors two people went than moons festivals. successive city amun-ra seasons"
           }
       ],
       [
@@ -14579,11 +14499,6 @@ var module_kemet_festivals_pharaonic = {
               "id": 2342,
               "action": "Appearance of Harsiese and His Followers, Day 2 of 8 (TFC Kom Ombo Ptolemy VI; CC)",
               "tags": "followers harsiese"
-          },
-          {
-              "id": 2343,
-              "action": "Festival calendars at the Akhmenu temple in Karnak indicate a \"revealing the face\" on this day. This phrase is the name of a daily ritual and does not indicate a special festival, though it is explicitly mentioned in the calendars as occurring on this particular day (TFC Akhmenu Thutmose III).",
-              "tags": "name karnak face though it indicate mentioned this does revealing akhmenu occurring special as ritual explicitly calendars not daily day. temple particular. phrase"
           }
       ],
       [
@@ -16004,7 +15919,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 3075,
               "action": "Feast of Lights for Khnum (Last Day of the Egyptian Year or a'areq Ronpet ) (TFC Esna; LA2, 179; Herodotus II, 62), including the ceremonies of the Evening Meal (AF TT50 tomb of Neferhotep dated to Horemheb; LA2, 19; AF TT9 tomb of Amonmes, 19th/20th",
-              "tags": "including ceremonies neferhotep th af horemheb amonmes lights tomb meal dated khnum la evening"
+              "tags": "lights khnum"
           },
           {
               "id": 3076,
