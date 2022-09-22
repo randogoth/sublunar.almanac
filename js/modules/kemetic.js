@@ -9739,7 +9739,7 @@ var module_kemet_chronokrators_pharaonic = {
           {
               "id": 2919,
               "action": "Lady of Ha... [place name broken off] (LGG4, 90, Edfu)",
-              "tags": "lady ha..."
+              "tags": "lady ha"
           }
       ],
       [
@@ -13871,7 +13871,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 1988,
               "action": "\"Festival of Khnum-Ra the good protector. Also, making the procession of Thoth in the middle of the house of the two little birds, at the same time, at evening. Union with the disk at sunset.\" (TFC Esna)",
-              "tags": "birds making two khnum-ra protector little same with good time also middle union sunset. evening. thoth disk"
+              "tags": "birds making two khnum-ra protector little same with good time also middle union sunset evening thoth disk"
           }
       ],
       [
@@ -14155,7 +14155,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 2150,
               "action": "\"Festival of Horus, son of Ra (i.e., Haroeris); performing his rites.\" (TFC Kom Ombo)",
-              "tags": "horus son rites. performing ra"
+              "tags": "horus son rites performing ra"
           }
       ],
       [
