@@ -457,7 +457,7 @@ SL.Calendar = (function() {
               menuItems[i.id] = {action: i.action, tags: i.tags};
             if (i.tags) {
               i.tags.split(" ").forEach(function(tag) {
-                tags.push(tag.replace(/[^a-Z0-9_-]/g, ''));
+                tags.push(tag);
               });
             }
           }
