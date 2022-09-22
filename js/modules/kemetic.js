@@ -13761,7 +13761,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 1925,
               "action": "\"Re-entry of Amun in His Festival of Lifting Up the Sky; 1 bull, 1 living ro-goose.\" (TFC/AF Medinet Habu Ramses III)",
-              "tags": "bull living sky lifting amun ro-goose. up re-entry"
+              "tags": "bull living sky lifting amun ro-goose up re-entry"
           }
       ],
       [
