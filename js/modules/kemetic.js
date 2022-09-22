@@ -13871,7 +13871,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 1988,
               "action": "\"Festival of Khnum-Ra the good protector. Also, making the procession of Thoth in the middle of the house of the two little birds, at the same time, at evening. Union with the disk at sunset.\" (TFC Esna)",
-              "tags": "birds making two khnum-ra protector. little same with good time also middle union sunset. evening. thoth disk"
+              "tags": "birds making two khnum-ra protector little same with good time also middle union sunset. evening. thoth disk"
           }
       ],
       [
