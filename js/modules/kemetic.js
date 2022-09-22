@@ -10815,7 +10815,7 @@ var module_kemet_festivals_pharaonic = {
           {
               "id": 685,
               "action": "Osiris is Lord of Wine during the Wag Festival. (LA6; PT820a)",
-              "tags": "wag lord during osiris festival. wine"
+              "tags": "wag lord during osiris festival wine"
           }
       ],
       [
