@@ -1,4 +1,4 @@
-Repository moved to [codeberg.org/randogoth/sublunar.almanac.git](https://codeberg.org/randogoth/sublunar.almanac.git)
+Repository moved to [code.randogoth.com/randogoth/sublunar.almanac.git](https://code.randogoth.com/randogoth/sublunar.almanac.git)
 
 # sublunar.almanac
 browser based tool to find auspicious hours for magical operations
